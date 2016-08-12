@@ -8,7 +8,7 @@ using Android.OS;
 
 namespace LoLADCGuide
 {
-    [Activity(Label = "LoLADCGuide", MainLauncher = true, Icon = "@drawable/appIconLoL", Theme = "@android:style/Theme.NoTitleBar")]
+    [Activity(Label = "LoLADCGuide", MainLauncher = true, Icon = "@drawable/icon", Theme = "@android:style/Theme.NoTitleBar")]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle bundle)
@@ -25,18 +25,18 @@ namespace LoLADCGuide
             Button btnPros = FindViewById<Button>(Resource.Id.btnBuilds);
             Button btnTips = FindViewById<Button>(Resource.Id.btnTips);
             Button btnWinRate = FindViewById<Button>(Resource.Id.btnWinRates);
-            ImageButton imgBtnLogo = FindViewById<ImageButton>(Resource.Id.imgBtnLogo);
+           // ImageButton imgBtnLogo = FindViewById<ImageButton>(Resource.Id.imgBtnLogo);
             
             btnChampions.Click += delegate { StartActivity(typeof(ChampionListActivity)); };
             btnWinRate.Click += delegate { StartActivity(typeof(WinRateActivity)); };
             btnTips.Click += delegate { StartActivity(typeof(TipsActivity)); };
             btnPros.Click += delegate { StartActivity(typeof(ProListActivity)); };
             btnMontage.Click += delegate { StartActivity(typeof(VideoActivity)); };
-            imgBtnLogo.Click += delegate {
+           /* imgBtnLogo.Click += delegate {
                 var uri = Android.Net.Uri.Parse("http://oce.leagueoflegends.com");
                 var intent = new Intent(Intent.ActionView, uri);
                 StartActivity(intent);
-            };
+            };*/
         }
     }
 }

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:id="@+id/imgBtnLogo"
+        android:src="@drawable/lolLogo"
+        android:scaleType="fitXY" />
+    <TextView
+        android:text="LoL ADC Guide"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewTitle"
+        android:gravity="center" />
+    <Button
+        android:text="Champions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnChampions" />
+    <Button
+        android:text="Tips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnTips" />
+    <Button
+        android:text="Pro ADC Builds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBuilds" />
+    <Button
+        android:text="ADC Montages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMontages" />
+    <Button
+        android:text="Current Win Rates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnWinRates" />
+    <Button
+        android:text="Leave Feedback *Coming Soon*"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnFeedback" />
+</LinearLayout>

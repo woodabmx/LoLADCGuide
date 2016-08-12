@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="ApplicationName">LoLADCGuide</string>
+  <string name="jinxSkill">Take Q level 1, E or W level 2 (depending on the matchup), then the other at level 3. Then max Q > W > E</string>
+  <string name="jinxPros">Long Range, AOE Crits, AOE Nuke Ult, CC</string>
+  <string name="jinxCons">\nNo Escape, Requires Frontline, Requires Good Positioning</string>
+  <string name="caitlynSkill">Take Q or W level 1 (depending on the matchup), then the other at level 2, E at level 3. Then max Q > E > W</string>
+  <string name="caitlynPros">Long Range, Huge Passive Damage, Escape, Great Laning Phase</string>
+  <string name="caitlynCons">\nWeak Mid Game, Ult Can Be Blocked, Weak 1v1 Post 6</string>
+  <string name="vayneSkill">Take Q level 1, then W at level 2, E at level 3. Then max Q > W > E or W > Q > E (depending on the matchup)</string>
+  <string name="vaynePros">% HP Damage, Stealth, Escape, Great 1v1</string>
+  <string name="vayneCons">\nWeak Laning Phase, Short Range, Requires Good Positioning</string>
+  <string name="sivirSkill">Take W level 1, Q at level 2, E at level 3. Then max Q > W > E</string>
+  <string name="sivirPros">AA Reset, Team Ult, Spell Shield, Great Laning Phase, Wave Clear</string>
+  <string name="sivirCons">\nShort Range, No Escape, Requires Good Positioning</string>
+  <string name="asheSkill">Take W level 1, Q at level 2, E at level 3. Then max W > Q > E</string>
+  <string name="ashePros">AA Slow, Huge Stun Ult, Long Range, Great Laning Phase</string>
+  <string name="asheCons">\nNo Escape, Requires Frontline, Requires Good Positioning</string>
+  <string name="corkiSkill">Take Q level 1, W at level 2, E at level 3. Then max Q > W > E</string>
+  <string name="corkiPros">Huge Poke, Long Escape, Strong Mid Game, Great Laning Phase</string>
+  <string name="corkiCons">\nSpell Reliant, Weak vs Tanks</string>
+</resources>

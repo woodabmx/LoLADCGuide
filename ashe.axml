@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Ashe"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/Black" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Build Order"
+        android:id="@+id/textView3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="25dp"
+        android:textColor="@color/Black" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Skill Order"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/cons"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="23dp"
+        android:textColor="@color/Black" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Pros:"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/Pros" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Cons:"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/pros"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="23dp"
+        android:textColor="@color/Cons" />
+    <ImageView
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:id="@+id/secondItem"
+        android:src="@drawable/ie"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_toEndOf="@+id/firstItem" />
+    <ImageView
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:id="@+id/firstItem"
+        android:src="@drawable/rh"
+        android:layout_alignTop="@+id/secondItem"
+        android:layout_toStartOf="@+id/textView2" />
+    <ImageView
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:id="@+id/thirdItem"
+        android:src="@drawable/rfc"
+        android:layout_alignTop="@+id/secondItem"
+        android:layout_toEndOf="@+id/secondItem" />
+    <ImageView
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:id="@+id/fourthItem"
+        android:src="@drawable/ldr"
+        android:layout_alignTop="@+id/thirdItem"
+        android:layout_toEndOf="@+id/thirdItem" />
+    <ImageView
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:id="@+id/fifthItem"
+        android:src="@drawable/ms"
+        android:layout_alignTop="@+id/fourthItem"
+        android:layout_toEndOf="@+id/fourthItem" />
+    <ImageView
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:id="@+id/boots"
+        android:src="@drawable/bg"
+        android:layout_alignTop="@+id/fifthItem"
+        android:layout_toEndOf="@+id/fifthItem" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/asheSkill"
+        android:id="@+id/skillOrder"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+    <ImageView
+        android:layout_width="200px"
+        android:layout_height="400px"
+        android:id="@+id/splash"
+        android:src="@drawable/ashe_splash"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_alignEnd="@+id/skillOrder" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="The Frost Archer"
+        android:id="@+id/textView7"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/Black" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/pros"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp"
+        android:text="@string/ashePros"
+        android:layout_toStartOf="@+id/fourthItem" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/asheCons"
+        android:id="@+id/cons"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/splash" />
+</RelativeLayout>
